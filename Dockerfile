@@ -41,6 +41,6 @@ ENV USER=ngrok
 # Basic sanity check.
 RUN ngrok --version
 
-EXPOSE 4040
+EXPOSE 4042
 
 CMD ["/entrypoint.sh"]
